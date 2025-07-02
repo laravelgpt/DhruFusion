@@ -1,0 +1,30 @@
+{
+    "name": "laravelgpt/dhru",
+    "description": "DhruFusionApi Integration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ahmedshuaib",
+            "email": "ahmedshuaib46@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "laravelgpt\\DhruFusion\\" : "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laravelgpt\\DhruFusion\\DhruServiceProvider"
+            ]
+        }
+    }
+}
